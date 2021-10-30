@@ -1,0 +1,10 @@
+.selected-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selected-card{
+    border: 2px dotted rgb(255, 169, 41);
+    width: 50%;
+    padding: 20px;
+}

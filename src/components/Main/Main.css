@@ -1,0 +1,19 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    grid-gap: 20px;
+}
+.single-card{
+    background-color: rgb(240, 231, 231);
+    width: 350px;
+    border-radius: 10px;
+}
+.card-desc{
+    padding: 20px;
+}
+.single-card img{
+    height: 200px;
+    width: 100%;
+}

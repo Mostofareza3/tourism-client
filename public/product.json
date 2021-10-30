@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Paris Hill Tour",
+        "img":"https://www.tourx-react.egenslab.com/static/media/pd-thumb.5f0185b5.png",
+        "price":"2099",
+        "description":"Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie. Sed feugiat mi nec ex vehicula, nec vestibulum orci semper.",
+        "time":"5 Day/6 Night"
+    },
+    {
+        "name":"Lake Garda, Italy",
+        "price":"1580",
+        "img":"https://www.tourx-react.egenslab.com/static/media/g-xxl-1.af3df441.png",
+        "description":" Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tristique commodo fringilla.",
+        "time":"5 Day/6 Night"
+    },
+    {
+        "name":"Mount Dtna, Italyr",
+        "img":"https://www.tourx-react.egenslab.com/static/media/g-xxl-2.8102c94b.png",
+        "price":"2354",
+        "description":"Duis aliquet varius mauris eget rutrum. Nullam sit amet justo consequat, bibendum orci in, convallis enim. ",
+        "time":"5 Day/6 Night"
+    },
+    {
+        "name":"Amalfi Costa, Italy",
+        "price":"2233",
+        "img":"https://www.tourx-react.egenslab.com/static/media/gl-2.2f3e157c.png",
+        "description":"Proin convallis neque viverra finibus cursus. Mauris lacinia lacinia erat in finibus. In non enim libero.Pellentesque accumsan magna in augue sagittis, non fringilla eros molestie. ",
+        "time":"5 Day/6 Night"
+    },
+    {
+        "name":"French Rivira, France",
+        "img":"https://www.tourx-react.egenslab.com/static/media/gl-5.e22fd4e7.png",
+        "price":"3245",
+        "description":" Sed feugiat mi nec ex vehicula, nec vestibulum orci semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra.",
+        "time":"5 Day/6 Night"
+    },
+    {
+        "name":"Lake Geneva, France",
+        "img":"https://www.tourx-react.egenslab.com/static/media/gl-6.4407ac9e.png",
+        "price":"2000",
+        "description":"Nullam sit amet justo consequat, bibendum orci in, convallis enim. Proin convallis neque viverra finibus cursus.",
+        "time":"5 Day/6 Night"
+    }
+]

@@ -1,0 +1,26 @@
+.nav-a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: #D10B22;
+    font-weight: 500;
+}
+
+.navbar-section{
+    margin-bottom: 100px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 1mm;
+    font-size: 20px;
+}
+.logo:hover{
+    color: white;
+
+}
+.navbar-container{
+    flex-wrap: nowrap;
+}
+
