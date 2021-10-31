@@ -1,3 +1,15 @@
-.insertPackage input{
+
+.package-form{
+    background-color: rgb(145, 212, 145);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.package-form input{
     display: block;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
 }

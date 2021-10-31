@@ -1,18 +1,32 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Main.css'
 
-const Main = () => {
+const ManagePackages = () => {
     const [packages, setPackages] = useState([]);
+    const [isDelete, setIsdelete] = useState(false)
     useEffect(() => {
         fetch('http://localhost:5000/packages')
             .then(res => res.json())
             .then(result => setPackages(result))
 
-    }, [])
+    }, [isDelete]);
+
+    const handleDelete = (id) => {
+        window.confirm("Are you sure to delete this package?")
+        fetch(`http://localhost:5000/delete/${id}`, {
+            method: "DELETE",
+            headers: { "content-type": "application/json" }
+        })
+        .then(res=>res.json())
+        .then(result=>{
+            setIsdelete(result.acknowledged)
+            if(result.acknowledged){
+                alert("delete successful")
+            }
+        })
+    }
     return (
         <div className="mt-5">
-            <h2 className="heading">Select Your Best Package <br /> For Your Travel </h2>
+            <h2 className="heading">Manage All available packages</h2>
 
             <div className="card-container">
                 {
@@ -28,10 +42,10 @@ const Main = () => {
                                 </div>
                                 <h5 className="highlight">{singlePackage.name}</h5>
 
-                                <p>{singlePackage.description.slice(0, 100)}</p>
-                                <Link to={`/placeBooking/${singlePackage._id}`}>
-                                <button className="btn btn-success">Book Now</button>
-                                </Link>
+                                <p>{singlePackage.description}</p>
+
+                                <button onClick={() => handleDelete(singlePackage._id)} className="btn btn-danger">Delete Offer</button>
+
 
                             </div>
 
@@ -44,4 +58,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default ManagePackages;

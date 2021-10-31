@@ -58,6 +58,7 @@ const PlaceBooking = () => {
                     <h3>Confirm Your Order</h3>
                     <form className="" onSubmit={handleSubmit(onSubmit)}>
                         <input required defaultValue={selected.name} {...register("name")} />
+                        <input type="date"  {...register("date")} />
                         <input required defaultValue={user?.email} {...register("email")} />
                         <input required placeholder="Your Phone Number" {...register("phone")} />
                         

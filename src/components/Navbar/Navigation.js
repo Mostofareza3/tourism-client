@@ -16,7 +16,8 @@ const Navigation = () => {
           <Link className="logo" readOnly to="/home">TravelX</Link>
           <Nav className="me-auto">
             <Link className="nav-a" to="/home">Home</Link>
-            <Link className="nav-a" to="/addPackages">Add Packages</Link>
+            <Link className="nav-a" to="/addPackages">Add Package</Link>
+            <Link className="nav-a" to="/manage">Manage All Packages</Link>
             {
               user.email? 
             <Link className="nav-a" to="/myOrders">MyOrders</Link>

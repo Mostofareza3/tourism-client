@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
+import ManagePackages from './components/ManagePackages/ManagePackages';
 import MyOrders from './components/MyOrders/MyOrders';
 import Navigation from './components/Navbar/Navigation';
 import Packages from './components/Packages/Packages';
@@ -34,6 +35,9 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
+            <PrivateRoute exact path="/manage">
+              <ManagePackages></ManagePackages>
+            </PrivateRoute>
             <PrivateRoute path="/placeBooking/:id">
               <PlaceBooking></PlaceBooking>
             </PrivateRoute>

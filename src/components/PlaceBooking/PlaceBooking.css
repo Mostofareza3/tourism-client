@@ -1,11 +1,13 @@
 .selected-container{
+    background-color: rgb(145, 212, 145);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .selected-card{
-    border: 2px dotted rgb(255, 169, 41);
+    border: 2px solid rgb(255, 169, 41);
     padding: 20px;
+    background-color: white;
 }
 .place-booking-form{
     background-color: rgb(145, 212, 145);

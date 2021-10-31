@@ -28,7 +28,7 @@ const MyOrders = () => {
 
     return (
         <div>
-            <h2>this is my orders item page</h2>
+            <h2 className="heading">Which Package you choose</h2>
             <div className="card-container">
                 {
                     myOrders.map(singlePackage =>
