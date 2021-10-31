@@ -14,9 +14,8 @@ const Main = () => {
 
     }, [])
     return (
-        <div>
-            <h5 className="highlight">Choose Your Package</h5>
-            <h2>Select Your Best Package <br /> For Your Travel </h2>
+        <div className="mt-5">
+            <h2 className="heading">Select Your Best Package <br /> For Your Travel </h2>
 
             <div className="card-container">
                 {
@@ -34,7 +33,7 @@ const Main = () => {
 
                                 <p>{singlePackage.description.slice(0, 100)}</p>
                                 <Link to={`/placeBooking/${singlePackage._id}`}>
-                                <button className="btn btn-success">Read More</button>
+                                <button className="btn btn-success">Book Now</button>
                                 </Link>
 
                             </div>

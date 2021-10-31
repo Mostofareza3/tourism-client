@@ -57,7 +57,7 @@ const Login = () => {
                 </form>
                 <p className="text-center my-3">----------or------------</p>
                 <button onClick={handleGoogleLogIn} className="google-login-button" ><i className="fab fa-google mx-2"></i>Google log in</button>
-                <p className="my-3 text-center">Are You New In <span className="text-danger">MEDICARE</span> ? please <Link to="/signup">Sign Up</Link> </p>
+                
             </div>
         </div>
     );

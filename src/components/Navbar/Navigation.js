@@ -17,8 +17,12 @@ const Navigation = () => {
           <Nav className="me-auto">
             <Link className="nav-a" to="/home">Home</Link>
             <Link className="nav-a" to="/addPackages">Add Packages</Link>
+            {
+              user.email? 
             <Link className="nav-a" to="/myOrders">MyOrders</Link>
-            <Link className="nav-a" to="/login">Login</Link>
+              :
+              ''
+            }
           </Nav>
           <Nav>
         

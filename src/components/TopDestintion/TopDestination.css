@@ -1,0 +1,40 @@
+.destination-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-items: center;
+    background-color: rgb(219, 214, 214);
+    padding: 30px 100px;
+    /* height: 600px; */
+}
+.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF7F47;
+    border-bottom: 1px dotted #FF7F47;
+}
+.image-container{
+    margin: 2px solid yellow;
+
+}
+.first-col, .second-col, .third-col{
+    height: 670px;
+    width: 300px;
+}
+.first-col img{
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+}
+.second-col img{
+    height: 600px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.third-col img{
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+
+}

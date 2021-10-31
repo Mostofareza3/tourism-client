@@ -8,18 +8,20 @@
     background-color: #D10B22;
 
 }
-input{
+/* input{
     display: block;
     outline: none;
     border: none;
-}
+} */
 .input-field{
     outline: none;
     margin: 20px 0px;
     padding: 10px 15px;
     width: 100%;
     border-bottom: 1px dotted #D10B22;
-
+    display: block;
+    outline: none;
+    border: none;
 }
 
 .form-container{
